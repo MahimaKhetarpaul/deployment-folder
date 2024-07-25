@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orderapp
-          image: mahimakhetarpaul/order-service:latest
+          image: mahimakhetarpaul/order-service:2
           imagePullPolicy: Always
           ports:
             - containerPort: 9094
